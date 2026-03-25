@@ -1,0 +1,22 @@
+{
+  "name": "easy-docker-deploy",
+  "version": "1.0.0",
+  "description": "CLI to pull, build and restart docker compose projects",
+  "bin": {
+    "easy-docker-deploy": "./dist/easy-docker-deploy.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  },
+  "dependencies": {
+    "yaml": "^2.8.3"
+  }
+}

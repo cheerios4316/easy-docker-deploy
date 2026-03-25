@@ -1,0 +1,1 @@
+export type TArguments = Record<string, string|number>;
