@@ -1,5 +1,7 @@
 # easy-docker-deploy
 
+[Repository link](https://github.com/cheerios4316/easy-docker-deploy)
+
 CLI to pull repositories and run their Docker container via Compose.
 
 ## Usage
