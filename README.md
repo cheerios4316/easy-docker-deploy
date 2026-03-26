@@ -11,9 +11,9 @@ CLI to pull repositories and run their Docker container via Compose.
 
 ### Available commands:
 
-**--deploy**: default if unspecified: pulls, optionally builds and deploy \
-**--build**: not implemented yet - will build the container \
-**--restart**: not implemented yet - will restart the container 
+**--deploy**: default if unspecified: pulls, optionally builds and finally starts or restarts the container \
+**--build**: pulls and builds \
+**--restart**: restarts the container 
 
 
 ## `edd.yml` syntax

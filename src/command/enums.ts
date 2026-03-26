@@ -5,5 +5,13 @@ export enum Commands {
 }
 
 export enum ArgumentNames {
-    PROEJCT = "project"
+    PROJECT = "project"
+}
+
+export enum CommandStages {
+    PULL = "pull",
+    BUILD = "build",
+    START = "start",
+    CD = "cd",
+    RESTART = "restart",
 }
